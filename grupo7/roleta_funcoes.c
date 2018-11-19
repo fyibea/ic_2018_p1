@@ -84,6 +84,10 @@ void Menu(){
 		printf("\n\n- I see... Well, this was fun. See ya 'round, stranger.\n");
 		exit(1); /*Force quit no programa para ter a certeza de que o jogador nao fica preso dentro do mesmo*/
 		break;
+	case 'T': case 't':
+		printf("Trabalho realizado por: Beatriz Pires e Catarina Matias");
+		exit(1);
+		break;
 	}
 }
 
